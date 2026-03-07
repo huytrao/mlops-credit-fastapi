@@ -139,3 +139,5 @@ Thumbs.db
 *.pickle
 data/
 models/
+artifacts/
+mlruns/

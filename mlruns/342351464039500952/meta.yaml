@@ -1,0 +1,6 @@
+artifact_location: file:///D:/career path/a project/mlops-credit-fastapi/mlruns/342351464039500952
+creation_time: 1772880686273
+experiment_id: '342351464039500952'
+last_update_time: 1772880686273
+lifecycle_stage: active
+name: credit_default_prediction

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/career path/a project/mlops-credit-fastapi/mlruns/342351464039500952/5f23310aac8243328b3c4f5469a58917/artifacts
+end_time: 1772880686908
+entry_point_name: ''
+experiment_id: '342351464039500952'
+lifecycle_stage: active
+run_id: 5f23310aac8243328b3c4f5469a58917
+run_name: flawless-robin-399
+run_uuid: 5f23310aac8243328b3c4f5469a58917
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772880686848
+status: 4
+tags: []
+user_id: Admin
