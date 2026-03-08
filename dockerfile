@@ -9,7 +9,7 @@ COPY requirements.txt .
 
 # 4. Install dependencies
 RUN pip install --upgrade pip \
-    && pip install --no-cache-dir -r requirements.txt \
+    && pip install --no-cache-dir --use-deprecated=legacy-resolver -r requirements.txt \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
