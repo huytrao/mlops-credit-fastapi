@@ -69,6 +69,7 @@ def _load_model():
 # Initialize model load on module import
 _load_model()
 
+
 # === FEATURE ENGINEERING LOGIC ===
 def _engineer_features(df: pd.DataFrame) -> pd.DataFrame:
     """
