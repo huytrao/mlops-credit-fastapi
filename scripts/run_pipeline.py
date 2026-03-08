@@ -184,5 +184,7 @@ if __name__ == "__main__":
 # ###
 # run the pipeline with
 # python -m scripts.run_pipeline --experiment credit_default_prediction --target TARGET --mlflow_uri file:./mlruns
+#  mlflow ui --backend-store-uri file:./mlruns
+
 # ###
 
