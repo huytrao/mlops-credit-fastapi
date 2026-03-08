@@ -39,50 +39,50 @@ To architect and deploy a production-ready Machine Learning solution for financi
 ### 📸 Project Screenshots
 
 <p align="center">
-  <img src="images/deploy_in_render.png" width="200" /><br>
+  <img src="images/deploy_in_render.png" width="400" /><br>
   <em>Deploy project on Render</em>
   &nbsp;&nbsp;
-  <img src="images/deployed_on_render_com_1.png" width="200" /><br>
+  <img src="images/deployed_on_render_com_1.png" width="400" /><br>
   <em>Deployment status page</em>
   &nbsp;&nbsp;
-  <img src="images/Render_com_deploy_1.png" width="200" /><br>
+  <img src="images/Render_com_ deploy_1.png" width="400" /><br>
   <em>Successful deployment</em>
 </p>
 
 <p align="center">
-  <img src="images/FastAPI_1.png" width="200" /><br>
+  <img src="images/FastAPI_1.png" width="400" /><br>
   <em>FastAPI project structure</em>
   &nbsp;&nbsp;
-  <img src="images/FastAPI_2.png" width="200" /><br>
+  <img src="images/FastAPI_2.png" width="400" /><br>
   <em>API endpoint example</em>
   &nbsp;&nbsp;
-  <img src="images/Fast_API_3.png" width="200" /><br>
+  <img src="images/Fast_API_3.png" width="400" /><br>
   <em>FastAPI response sample</em>
 </p>
 
 <p align="center">
-  <img src="images/github_action_CI.png" width="200" /><br>
+  <img src="images/github_action_CI.png" width="400" /><br>
   <em>GitHub Actions CI workflow</em>
   &nbsp;&nbsp;
-  <img src="images/github_action_CI_2.png" width="200" /><br>
+  <img src="images/github_action_CI_2.png" width="400" /><br>
   <em>CI build process</em>
   &nbsp;&nbsp;
-  <img src="images/github_action_CI_3.png" width="200" /><br>
+  <img src="images/github_action_CI_3.png" width="400" /><br>
   <em>Test results in CI</em>
 </p>
 
 <p align="center">
-  <img src="images/Gradio_UI_1.png" width="200" /><br>
+  <img src="images/Gradio_UI_1.png" width="400" /><br>
   <em>Gradio interface</em>
   &nbsp;&nbsp;
-  <img src="images/Gradio_UI_2.png" width="200" /><br>
+  <img src="images/Gradio_UI_2.png" width="400" /><br>
   <em>User input and output</em>
 </p>
 
 <p align="center">
-  <img src="images/run-pipeline_result_1.png" width="200" /><br>
+  <img src="images/run-pipeline_result_1.png" width="400" /><br>
   <em>Pipeline run result 1</em>
   &nbsp;&nbsp;
-  <img src="images/run-pipeline_result_2.png" width="200" /><br>
+  <img src="images/run-pipeline_result_2.png" width="400" /><br>
   <em>Pipeline run result 2</em>
 </p>
