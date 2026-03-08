@@ -3,7 +3,7 @@
 **Live Demo:** [https://mlops-credit-fastapi-latest-2.onrender.com/ui](https://mlops-credit-fastapi-latest-2.onrender.com/ui)
 
 ### Purpose
-To architect and deploy a production-ready Machine Learning solution for financial risk assessment. [from this project](https://github.com/huytrao/credit-risk-predict) transforms a raw research notebook into a scalable, containerized application hosted on Render, bridging the gap between data science and operational deployment.
+To architect and deploy a production-ready Machine Learning solution for financial risk assessment. [From this project](https://github.com/huytrao/credit-risk-predict) transforms a raw research notebook into a scalable, containerized application hosted on Render, bridging the gap between data science and operational deployment.
 
 ### Key Features & Benefits
 - **Real-time Decisioning:** API-first design allows immediate credit default risk prediction.
