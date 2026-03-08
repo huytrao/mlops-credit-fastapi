@@ -4,29 +4,27 @@ FROM python:3.11-slim
 # 2. Set working directory inside the container
 WORKDIR /app
 
-# 3. Copy only dependency file first (for Docker caching)
+# 3. Copy dependency file first (better Docker cache usage)
 COPY requirements.txt .
 
-# 4. Install Python dependencies (add curl if you use MLflow local tracking URI)
+# 4. Install dependencies
 RUN pip install --upgrade pip \
     && pip install -r requirements.txt \
-    && apt-get clean && rm -rf /var/lib/apt/lists/*
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
-# 5. Copy the entire project into the image
+# 5. Copy project files
 COPY . .
 
-# Explicitly copy model (in case .dockerignore excluded mlruns)
-# NOTE: destination changed to /app/src/serving/model to match inference.py's path
-COPY src/serving/model /app/src/serving/model
+# (Optional) Copy model if excluded by .dockerignore
+# COPY src/serving/model /app/src/serving/model
 
-# make "serving" and "app" importable without the "src." prefix
-# ensures logs are shown in real-time (no buffering).
-# lets you import modules using from app... instead of from src.app....
-ENV PYTHONUNBUFFERED=1 \ 
+# 6. Environment variables
+ENV PYTHONUNBUFFERED=1 \
     PYTHONPATH=/app/src
 
-# 6. Expose FastAPI port
+# 7. Expose FastAPI port
 EXPOSE 8000
 
-# 7. Run the FastAPI app using uvicorn (change path if needed)
+# 8. Run FastAPI with uvicorn
 CMD ["python", "-m", "uvicorn", "src.app.main:app", "--host", "0.0.0.0", "--port", "8000"]

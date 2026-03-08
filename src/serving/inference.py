@@ -84,6 +84,7 @@ def _engineer_features(df: pd.DataFrame) -> pd.DataFrame:
     Returns:
         DataFrame with added engineering columns
     """
+    
     # 1. External Sources Statistics (Top Important Features)
     ext_cols = ['EXT_SOURCE_1', 'EXT_SOURCE_2', 'EXT_SOURCE_3']
     
