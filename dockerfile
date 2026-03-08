@@ -9,7 +9,7 @@ COPY requirements.txt .
 
 # 4. Install dependencies
 RUN pip install --upgrade pip \
-    && pip install -r requirements.txt \
+    && pip install -r --no-cache-dir requirements.txt \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
