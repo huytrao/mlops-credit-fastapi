@@ -1,9 +1,0 @@
-# Fly.toml configuration for DockerHub image
-app = "mlops-credit-fastapi"
-
-[build]
-# No build needed, using external image
-
-[deploy]
-image = "huytrao/mlops-credit-fastapi"
-
